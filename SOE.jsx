@@ -120,10 +120,11 @@ export const sectionsConfig = [
     position: 4,
     props: {
       name: "Dr. Kirti Pal",
-      title: "Dean (I/C) and Associate Professor\n",
-      image: "https://www.gbu.ac.in/Content/gbudata/Employee/img/kirtipal.jpg",
+      title: "Dean (I/C) and Associate Professor",
+      image:
+        "https://faculty.gbu.ac.in/uploads/photos/660531da1be80_kirti.pal.jpg",
       description: `It is my proud privilege to welcome you at School of Engineering on the Website of Gautam Buddha University. The School has came in to existence in the academic session, 2010 -11 with the beginning of Five years Integrated dual degree program ( B.Tech. + M.Tech / M.B.A.) in three core branches of engineering ( Civil, Mechanical & Electrical ). In the academic session, 2014 -15, the first batch of Engineers of the University is going to pass out. In successive years B. Arch in Architecture & Regional Planning, Masters & Doctoral Programs in different disciplines have come in to existence.
-As an academic community, the school is committed to the belief that expanding our knowledge of the liberal Sciences & Technologies will enable us to live better lives and to contribute more to society. Thus we are constantly trying to remain competitive, to maintain excellence in teaching to strengthen our undergraduate and graduate programs and to build the School’s research agenda to increase the external partnerships & sponsors. I hope that you will join us in our mission..`,
+As an academic community, the school is committed to the belief that expanding our knowledge of the liberal Sciences & Technologies will enable us to live better lives and to contribute more to society. Thus we are constantly trying to remain competitive, to maintain excellence in teaching to strengthen our undergraduate and graduate programs and to build the School's research agenda to increase the external partnerships & sponsors. I hope that you will join us in our mission.`,
     },
   },
 
@@ -147,21 +148,19 @@ As an academic community, the school is committed to the belief that expanding o
             "B.Tech Electrical Engineering (Computer Engineering)",
             "B.Tech Electrical & Computer Engineering",
             "B.Tech Electrical & Electronics Engineering",
-            "Integrated B.Tech–M.Tech/MBA (Power Systems)",
-            "Integrated B.Tech–M.Tech/MBA (Instrumentation & Control)",
-            "Integrated B.Tech–M.Tech/MBA (Power Electronics & Drives)",
-            "Integrated B.Tech–M.Tech/MBA (Renewable Energy)",
-            "Integrated B.Tech–M.Tech/MBA (MBA)",
-            "M.Tech Power System",
-            "M.Tech Power Electronics & Drives",
-            "M.Tech Instrumentation & Control System",
-            "M.Tech Renewable Energy Sources",
-            "M.Tech Power & Energy Systems",
-            "Ph.D Electrical Engineering",
+            "B.Tech Robotics and Artificial Intelligence",
+            "Integrated B.Tech–M.Tech/MBA (Electrical Engineering)",
+            "M.Tech Instrumentation and Control",
+            "M.Tech Control and Robotics",
+            "M.Tech Power System and Energy Management",
+            "M.Tech (RES, PS, I&C, PED, C&R, ISP)",
+            "M.Tech Weekend – Working Professionals (Instrumentation & Control, Power Systems, Power Electronics & Drives, Instrumentation & Signal Processing, Renewable Energy, Power & Energy Management, Control & Robotics)",
+            "Ph.D Electrical and Electronics Engineering",
           ],
           faculty: 16,
           labs: 17,
-          image: "image-URL",
+          image:
+            "https://images.unsplash.com/photo-1509395176047-4a66953fd231?w=600&h=400&fit=crop",
           gradient: "from-blue-400 to-blue-600",
           link: "/schools/engineering/departments/ee",
         },
@@ -173,17 +172,18 @@ As an academic community, the school is committed to the belief that expanding o
             "Covers design, manufacturing, thermal and industrial engineering.",
           courses: [
             "B.Tech Mechanical Engineering",
-            "M.Tech Mechanical Engineering (Design Engineering)",
+            "B.Tech Mechanical Engineering with minor (Automobile and Industrial Engineering)",
+            "B.Tech Mechanical Engineering with minor (Mechatronics and Automation)",
             "M.Tech Mechanical Engineering (Manufacturing Engineering)",
+            "M.Tech Mechanical Engineering (Design Engineering)",
             "M.Tech Mechanical Engineering (Thermal Engineering)",
-            "Ph.D Mechanical Engineering (Thermal Engineering)",
-            "Ph.D Mechanical Engineering (Design Engineering)",
-            "Ph.D Mechanical Engineering (Manufacturing Engineering)",
-            "Ph.D Mechanical Engineering (Industrial Engineering)",
+            "M.Tech Mechanical Engineering Weekend – Working Professionals (3 Years)",
+            "Ph.D Mechanical Engineering",
           ],
           faculty: 9,
           labs: 11,
-          image: "image-URL",
+          image:
+            "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=400&fit=crop",
           gradient: "from-blue-600 to-blue-800",
           link: "/schools/engineering/departments/me",
         },
@@ -195,19 +195,17 @@ As an academic community, the school is committed to the belief that expanding o
             "Focuses on infrastructure, structural and environmental engineering.",
           courses: [
             "B.Tech Civil Engineering",
-            "B.Tech Civil Engineering (Working Professionals)",
-            "B.Tech Civil Engineering (Lateral Entry)",
             "M.Tech Civil Engineering (Structural Engineering)",
             "M.Tech Civil Engineering (Environmental Engineering)",
             "M.Tech Civil Engineering (Transportation Engineering)",
             "M.Tech Civil Engineering (Geotechnical & Geo Environmental Engineering)",
             "M.Tech Civil Engineering (Construction Management)",
-            "M.Tech Civil Engineering (Working Professionals - Structural Engineering)",
             "Ph.D Civil Engineering",
           ],
           faculty: 13,
           labs: 10,
-          image: "image-URL",
+          image:
+            "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&h=400&fit=crop",
           gradient: "from-blue-500 to-blue-700",
           link: "/schools/engineering/departments/ce",
         },
@@ -218,14 +216,14 @@ As an academic community, the school is committed to the belief that expanding o
           description:
             "Focuses on urban planning, architecture design and development.",
           courses: [
-            "B.Arch",
+            "B.Arch (Bachelor in Architecture)",
             "B.Des (Interior Design)",
-            "M.Arch (Sustainable Architecture)",
-            "MURP (Master of Urban & Regional Planning)",
+            "M.Plan (Masters in Urban and Regional Planning)",
           ],
           faculty: 10,
           labs: 7,
-          image: "image-URL",
+          image:
+            "https://images.unsplash.com/photo-1505842465776-3acb1f4a0a94?w=600&h=400&fit=crop",
           gradient: "from-blue-500 to-blue-700",
           link: "/schools/engineering/departments/ar",
         },
@@ -239,57 +237,6 @@ As an academic community, the school is committed to the belief that expanding o
     position: 6,
     props: {
       programs: [
-        // ================= CSE =================
-        {
-          name: "B.Tech Computer Science & Engineering",
-          code: "CSE",
-          duration: "4 Years",
-          specializations: [
-            "AI",
-            "Data Science",
-            "Cyber Security",
-            "Software Engineering",
-          ],
-          image: "https://images.unsplash.com/photo-1518770660439-4636190af475",
-          description:
-            "Undergraduate program in Computer Science with industry-focused specializations.",
-        },
-        {
-          name: "Integrated B.Tech–M.Tech CSE",
-          code: "CSE Dual",
-          duration: "5 Years",
-          specializations: [
-            "AI & Robotics",
-            "Data Science",
-            "Software Engineering",
-          ],
-          image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
-          description:
-            "Dual degree program combining B.Tech and M.Tech in CSE.",
-        },
-        {
-          name: "M.Tech Computer Science & Engineering",
-          code: "M.Tech CSE",
-          duration: "2 Years",
-          specializations: [
-            "AI & Robotics",
-            "Data Science",
-            "Software Engineering",
-          ],
-          image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
-          description:
-            "Postgraduate program focused on advanced computing technologies.",
-        },
-        {
-          name: "Ph.D Computer Science & Engineering",
-          code: "PhD CSE",
-          duration: "Varies",
-          specializations: ["Research in AI, ML, Cybersecurity"],
-          image: "https://images.unsplash.com/photo-1581091870622-1e7b1a6be9f2",
-          description:
-            "Doctoral research program in cutting-edge computing domains.",
-        },
-
         // ================= ELECTRICAL =================
         {
           name: "B.Tech Electrical Engineering",
@@ -302,46 +249,114 @@ As an academic community, the school is committed to the belief that expanding o
             "Biomedical Engineering",
             "Computer Engineering",
           ],
-          image: "https://images.unsplash.com/photo-1509395176047-4a66953fd231",
+          image:
+            "https://images.unsplash.com/photo-1509395176047-4a66953fd231?w=600&h=400&fit=crop",
           description:
             "Core electrical engineering program with modern specialization tracks.",
         },
         {
-          name: "Integrated B.Tech–M.Tech Electrical",
+          name: "B.Tech Electrical & Computer Engineering",
+          code: "ECE",
+          duration: "4 Years",
+          specializations: [],
+          image:
+            "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+          description:
+            "Undergraduate program combining electrical and computer engineering disciplines.",
+        },
+        {
+          name: "B.Tech Electrical & Electronics Engineering",
+          code: "EEE",
+          duration: "4 Years",
+          specializations: [],
+          image:
+            "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=600&h=400&fit=crop",
+          description:
+            "Undergraduate program in electrical and electronics engineering.",
+        },
+        {
+          name: "B.Tech Robotics and Artificial Intelligence",
+          code: "RAI",
+          duration: "4 Years",
+          specializations: [],
+          image:
+            "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&h=400&fit=crop",
+          description:
+            "Undergraduate program in robotics and artificial intelligence.",
+        },
+        {
+          name: "Integrated B.Tech–M.Tech/MBA (Electrical Engineering)",
           code: "EE Dual",
           duration: "5 Years",
           specializations: [
             "Power Systems",
             "Instrumentation & Control",
-            "Power Electronics",
+            "Power Electronics & Drives",
             "Renewable Energy",
+            "MBA",
           ],
-          image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758",
+          image:
+            "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=600&h=400&fit=crop",
           description:
-            "Integrated program combining undergraduate and postgraduate electrical studies.",
+            "Integrated dual-degree program combining undergraduate and postgraduate electrical studies.",
         },
         {
-          name: "M.Tech Electrical Engineering",
-          code: "M.Tech EE",
+          name: "M.Tech Instrumentation and Control",
+          code: "M.Tech IC",
+          duration: "2 Years",
+          specializations: [],
+          image:
+            "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=600&h=400&fit=crop",
+          description:
+            "Postgraduate program in instrumentation and control engineering.",
+        },
+        {
+          name: "M.Tech Control and Robotics",
+          code: "M.Tech CR",
+          duration: "2 Years",
+          specializations: [],
+          image:
+            "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&h=400&fit=crop",
+          description: "Postgraduate program in control systems and robotics.",
+        },
+        {
+          name: "M.Tech Power System and Energy Management",
+          code: "M.Tech PS",
           duration: "2 Years",
           specializations: [
+            "Renewable Energy Sources",
             "Power System",
-            "Power Electronics",
             "Instrumentation & Control",
-            "Renewable Energy",
-            "Energy Systems",
+            "Power Electronics & Drives",
+            "Instrumentation & Signal Processing",
+            "Power & Energy Management",
+            "Control & Robotics",
           ],
-          image: "https://images.unsplash.com/photo-1518779578993-ec3579fee39f",
+          image:
+            "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=600&h=400&fit=crop",
           description:
-            "Advanced postgraduate program in electrical engineering domains.",
+            "Postgraduate program in power systems, energy management and allied electrical specializations.",
         },
         {
-          name: "Ph.D Electrical Engineering",
+          name: "Ph.D Electrical and Electronics Engineering",
           code: "PhD EE",
           duration: "Varies",
-          specializations: ["Electrical Engineering Research"],
-          image: "https://images.unsplash.com/photo-1554475901-4538ddfbccc2",
-          description: "Doctoral research in electrical and energy systems.",
+          specializations: [
+            "Power System",
+            "Semiconductors",
+            "VLSI",
+            "Control & Instrumentation",
+            "System Design",
+            "Reliability Engineering",
+            "Power Electronic Drives",
+            "Industrial Automation and Control",
+            "High Voltage Engineering",
+            "Industrial and Biomedical Instrumentation",
+          ],
+          image:
+            "https://images.unsplash.com/photo-1554475901-4538ddfbccc2?w=600&h=400&fit=crop",
+          description:
+            "Doctoral research in electrical and electronics engineering.",
         },
 
         // ================= MECHANICAL =================
@@ -349,8 +364,12 @@ As an academic community, the school is committed to the belief that expanding o
           name: "B.Tech Mechanical Engineering",
           code: "ME",
           duration: "4 Years",
-          specializations: [],
-          image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789",
+          specializations: [
+            "Automobile and Industrial Engineering",
+            "Mechatronics and Automation",
+          ],
+          image:
+            "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=400&fit=crop",
           description:
             "Undergraduate program covering core mechanical engineering concepts.",
         },
@@ -359,11 +378,12 @@ As an academic community, the school is committed to the belief that expanding o
           code: "M.Tech ME",
           duration: "2 Years",
           specializations: [
-            "Design Engineering",
             "Manufacturing Engineering",
+            "Design Engineering",
             "Thermal Engineering",
           ],
-          image: "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc",
+          image:
+            "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=600&h=400&fit=crop",
           description:
             "Postgraduate specialization in core mechanical domains.",
         },
@@ -372,12 +392,13 @@ As an academic community, the school is committed to the belief that expanding o
           code: "PhD ME",
           duration: "Varies",
           specializations: [
+            "Machine Design",
+            "Production Engineering (CAD/CAM)",
             "Thermal Engineering",
-            "Design Engineering",
-            "Manufacturing Engineering",
             "Industrial Engineering",
           ],
-          image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+          image:
+            "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&h=400&fit=crop",
           description: "Doctoral research in mechanical engineering fields.",
         },
 
@@ -387,41 +408,86 @@ As an academic community, the school is committed to the belief that expanding o
           code: "CE",
           duration: "4 Years",
           specializations: [],
-          image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e",
+          image:
+            "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&h=400&fit=crop",
           description:
             "Undergraduate program focused on infrastructure and construction engineering.",
         },
         {
-          name: "M.Tech Civil Engineering",
-          code: "M.Tech CE",
+          name: "M.Tech Civil Engineering (Structural Engineering)",
+          code: "M.Tech CE-SE",
+          duration: "2 Years",
+          specializations: ["Structural Engineering"],
+          image:
+            "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&h=400&fit=crop",
+          description:
+            "Postgraduate program with specialization in structural engineering.",
+        },
+        {
+          name: "M.Tech Civil Engineering (Environmental Engineering)",
+          code: "M.Tech CE-EE",
+          duration: "2 Years",
+          specializations: ["Environmental Engineering"],
+          image:
+            "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&h=400&fit=crop",
+          description:
+            "Postgraduate program with specialization in environmental engineering.",
+        },
+        {
+          name: "M.Tech Civil Engineering (Transportation Engineering)",
+          code: "M.Tech CE-TE",
+          duration: "2 Years",
+          specializations: ["Transportation Engineering"],
+          image:
+            "https://images.unsplash.com/photo-1464219789935-c2d9d9aba644?w=600&h=400&fit=crop",
+          description:
+            "Postgraduate program with specialization in transportation engineering.",
+        },
+        {
+          name: "M.Tech Civil Engineering (Geotechnical & Geo Environmental Engineering)",
+          code: "M.Tech CE-GE",
           duration: "2 Years",
           specializations: [
-            "Structural Engineering",
-            "Environmental Engineering",
-            "Transportation Engineering",
             "Geotechnical Engineering",
-            "Construction Management",
+            "Geo Environmental Engineering",
           ],
-          image: "https://images.unsplash.com/photo-1581093458791-9d09d7e07b6a",
+          image:
+            "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
           description:
-            "Advanced civil engineering program with multiple specializations.",
+            "Postgraduate program with specialization in geotechnical and geo environmental engineering.",
+        },
+        {
+          name: "M.Tech Civil Engineering (Construction Management)",
+          code: "M.Tech CE-CM",
+          duration: "2 Years",
+          specializations: ["Construction Management"],
+          image:
+            "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&h=400&fit=crop",
+          description:
+            "Postgraduate program with specialization in construction management.",
         },
         {
           name: "Ph.D Civil Engineering",
           code: "PhD CE",
           duration: "Varies",
-          specializations: ["Civil Engineering Research"],
-          image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e",
+          specializations: [
+            "Water Management",
+            "Environment Engineering",
+            "Structural Engineering",
+          ],
+          image:
+            "https://images.unsplash.com/photo-1581093458791-9d09d7e07b6a?w=600&h=400&fit=crop",
           description: "Doctoral research in civil engineering disciplines.",
         },
 
         // ================= ARCHITECTURE =================
         {
-          name: "B.Arch",
+          name: "B.Arch (Bachelor in Architecture)",
           code: "B.Arch",
           duration: "5 Years",
           specializations: [],
-          image: "https://images.unsplash.com/photo-1505842465776-3acb1f4a0a94",
+          image:
+            "https://images.unsplash.com/photo-1505842465776-3acb1f4a0a94?w=600&h=400&fit=crop",
           description: "Professional undergraduate program in architecture.",
         },
         {
@@ -429,26 +495,19 @@ As an academic community, the school is committed to the belief that expanding o
           code: "B.Des",
           duration: "4 Years",
           specializations: ["Interior Design"],
-          image: "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
+          image:
+            "https://images.unsplash.com/photo-1492724441997-5dc865305da7?w=600&h=400&fit=crop",
           description:
             "Design program focused on interior spaces and human-centered design.",
         },
         {
-          name: "M.Arch (Sustainable Architecture)",
-          code: "M.Arch",
-          duration: "2 Years",
-          specializations: ["Sustainable Architecture"],
-          image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e",
-          description:
-            "Postgraduate architecture program focusing on sustainability.",
-        },
-        {
-          name: "MURP",
-          code: "MURP",
+          name: "M.Plan (Masters in Urban and Regional Planning)",
+          code: "M.Plan",
           duration: "2 Years",
           specializations: ["Urban & Regional Planning"],
-          image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
-          description: "Master program in urban and regional planning.",
+          image:
+            "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=400&fit=crop",
+          description: "Postgraduate program in urban and regional planning.",
         },
       ],
     },
@@ -464,175 +523,186 @@ As an academic community, the school is committed to the belief that expanding o
       facultyList: [
         // ===== ARCHITECTURE =====
         {
-          name: "Ms. Madhuri Agarwal",
-          title: "HOD & Assistant Professor – Architecture",
-          image: "https://via.placeholder.com/300x300?text=Madhuri+Agarwal",
+          name: "Dr. Madhuri Aggarwal",
+          title: "Assistant Professor – Architecture & Planning",
+          image:
+            "https://faculty.gbu.ac.in/uploads/photos/660531a696e89_madhuri.jpg",
         },
         {
           name: "Prof. Charanjit Singh Shah",
-          title: "Professor – Architecture",
-          image: "https://via.placeholder.com/300x300?text=Charanjit+Shah",
+          title: "Recognized/Visiting Professor – Architecture & Planning",
+          image: "https://faculty.gbu.ac.in/uploads/photos/comingsoonimg.jpg",
         },
         {
           name: "Prof. Krishna Kumar Dhote",
-          title: "Professor – Architecture",
-          image: "https://via.placeholder.com/300x300?text=Krishna+Dhote",
+          title: "Recognized/Visiting Professor – Architecture & Planning",
+          image: "https://faculty.gbu.ac.in/uploads/photos/comingsoonimg.jpg",
         },
         {
-          name: "Dr. Nirmita Mehrotra",
-          title: "Assistant Professor – Architecture",
-          image: "https://via.placeholder.com/300x300?text=Nirmita+Mehrotra",
+          name: "Dr. Nirmita Mahrotra",
+          title: "Assistant Professor – Architecture & Planning",
+          image:
+            "https://faculty.gbu.ac.in/uploads/photos/6605308e35d32_nirmitamehrotra.jpg",
         },
         {
-          name: "Ar. Priyank Jain",
-          title: "Assistant Professor – Architecture",
-          image: "https://via.placeholder.com/300x300?text=Priyank+Jain",
+          name: "Dr. Anant Pratap Singh",
+          title: "Assistant Professor and HoD – Architecture & Planning",
+          image:
+            "https://faculty.gbu.ac.in/uploads/photos/660531c243424_anant.jpg",
         },
 
         // ===== ELECTRICAL =====
         {
           name: "Dr. Kirti Pal",
-          title: "Dean – Electrical Engineering",
-          image: "https://via.placeholder.com/300x300?text=Kirti+Pal",
+          title: "Associate Professor and Dean (I/C) – Electrical Engineering",
+          image:
+            "https://faculty.gbu.ac.in/uploads/photos/660531da1be80_kirti.pal.jpg",
         },
         {
           name: "Dr. Omveer Singh",
-          title: "HOD – Electrical Engineering",
-          image: "https://via.placeholder.com/300x300?text=Omveer+Singh",
+          title: "Assistant Professor and HoD – Electrical Engineering",
+          image:
+            "https://faculty.gbu.ac.in/uploads/photos/660531910b2a4_omveer.singh.jpg",
         },
         {
           name: "Dr. Nidhi Singh",
-          title: "Assistant Professor – Electrical",
-          image: "https://via.placeholder.com/300x300?text=Nidhi+Singh",
+          title: "Assistant Professor – Electrical Engineering",
+          image:
+            "https://faculty.gbu.ac.in/uploads/photos/67c1ec88b4b8d_nidhi-pic.jpeg",
         },
         {
-          name: "Dr. M.A. Ansari",
-          title: "Assistant Professor – Electrical",
-          image: "https://via.placeholder.com/300x300?text=MA+Ansari",
+          name: "Dr. Mohd. Ahmad Ansari",
+          title: "Assistant Professor – Electrical Engineering",
+          image:
+            "https://faculty.gbu.ac.in/uploads/photos/67c5f0df429ce_Dr.M.A.Ansari%20School%20of%20Engineering_GBU2.JPG",
         },
         {
-          name: "Dr. Rahul",
-          title: "Assistant Professor – Electrical",
-          image: "https://via.placeholder.com/300x300?text=Dr+Rahul",
+          name: "Dr. Shabana Urooj",
+          title: "Assistant Professor – Electrical Engineering",
+          image:
+            "https://faculty.gbu.ac.in/uploads/photos/6605310436840_shabana.jpg",
         },
         {
           name: "Dr. Isha Kansal",
-          title: "Assistant Professor – Electrical",
-          image: "https://via.placeholder.com/300x300?text=Isha+Kansal",
+          title: "Assistant Professor (OCFD) – Electrical Engineering",
+          image: "https://faculty.gbu.ac.in/uploads/photos/comingsoonimg.jpg",
         },
         {
-          name: "Dr. Preeti Kumari",
-          title: "Assistant Professor – Electrical",
-          image: "https://via.placeholder.com/300x300?text=Preeti+Kumari",
+          name: "Prof. S.P. Singh",
+          title: "Recognized/Visiting Professor – Electrical Engineering",
+          image: "https://faculty.gbu.ac.in/uploads/photos/comingsoonimg.jpg",
         },
         {
-          name: "Mr. Ravikant Yadav",
-          title: "Faculty – Electrical Engineering",
-          image: "https://via.placeholder.com/300x300?text=Ravikant+Yadav",
+          name: "Mr. Ravi Kant Yadav",
+          title: "Assistant Professor (OCFD) – Electrical Engineering",
+          image: "https://faculty.gbu.ac.in/uploads/photos/comingsoonimg.jpg",
         },
         {
-          name: "Ms. Kreti",
-          title: "Faculty – Electrical Engineering",
-          image: "https://via.placeholder.com/300x300?text=Kreti",
+          name: "Mr. Swadheen Sharma",
+          title: "Assistant Professor (OCFD) – Electrical Engineering",
+          image:
+            "https://faculty.gbu.ac.in/uploads/photos/6652702cee733_pp_photo.jpg",
         },
         {
-          name: "Ms. Jyoti",
-          title: "Faculty – Electrical Engineering",
-          image: "https://via.placeholder.com/300x300?text=Jyoti",
+          name: "Mrs. Jyoti Singh",
+          title: "Assistant Professor (OCFD) – Electrical Engineering",
+          image:
+            "https://faculty.gbu.ac.in/uploads/photos/67c156ffaa6cd_Jyoti.JPG",
         },
 
         // ===== CIVIL =====
         {
           name: "Dr. Shobha Ram",
-          title: "HOD & Assistant Professor – Civil Engineering",
-          image: "https://via.placeholder.com/300x300?text=Shobha+Ram",
+          title: "Assistant Professor and HoD – Civil Engineering",
+          image: "https://faculty.gbu.ac.in/uploads/photos/comingsoonimg.jpg",
         },
         {
           name: "Dr. Anju Agarwal",
-          title: "Professor – Civil Engineering",
-          image: "https://via.placeholder.com/300x300?text=Anju+Agarwal",
+          title: "Assistant Professor (OCFD) – Civil Engineering",
+          image: "https://faculty.gbu.ac.in/uploads/photos/comingsoonimg.jpg",
         },
         {
           name: "Dr. Rohit Ralli",
-          title: "Assistant Professor – Civil Engineering",
-          image: "https://via.placeholder.com/300x300?text=Rohit+Ralli",
+          title: "Assistant Professor (OCFD) – Civil Engineering",
+          image:
+            "https://faculty.gbu.ac.in/uploads/photos/665082b8ce82c_IMG_6047%20(Edited).JPG",
         },
         {
-          name: "Mr. Rahul Kumar",
+          name: "Dr. Indrajeet Singh",
           title: "Assistant Professor – Civil Engineering",
-          image: "https://via.placeholder.com/300x300?text=Rahul+Kumar",
+          image:
+            "https://faculty.gbu.ac.in/uploads/photos/67c53dfff3fa3_DSC_4677%20(1).jpg",
         },
         {
-          name: "Anvita Tripathi",
-          title: "Assistant Professor – Civil Engineering",
-          image: "https://via.placeholder.com/300x300?text=Anvita+Tripathi",
+          name: "Mr. Vikas Kumar",
+          title: "Assistant Professor (OCFD) – Civil Engineering",
+          image:
+            "https://faculty.gbu.ac.in/uploads/photos/6650a4ce231d4_VIKAS%20N.jpg",
         },
         {
-          name: "Vikas Kumar",
-          title: "Assistant Professor – Civil Engineering",
-          image: "https://via.placeholder.com/300x300?text=Vikas+Kumar",
+          name: "Mr. Chitransh Sharma",
+          title: "Assistant Professor (OCFD) – Civil Engineering",
+          image: "https://faculty.gbu.ac.in/uploads/photos/comingsoonimg.jpg",
         },
         {
-          name: "Chitransh Sharma",
-          title: "Assistant Professor – Civil Engineering",
-          image: "https://via.placeholder.com/300x300?text=Chitransh+Sharma",
+          name: "Mr. Manish Tomar",
+          title: "Assistant Professor (OCFD) – Civil Engineering",
+          image:
+            "https://faculty.gbu.ac.in/uploads/photos/665448b67385e_Picture45449.jpg",
         },
         {
-          name: "Manish Tomar",
-          title: "Assistant Professor – Civil Engineering",
-          image: "https://via.placeholder.com/300x300?text=Manish+Tomar",
-        },
-        {
-          name: "Km. Varsha Mall",
-          title: "Assistant Professor – Civil Engineering",
-          image: "https://via.placeholder.com/300x300?text=Varsha+Mall",
+          name: "Ms. Varsha Mall",
+          title: "Assistant Professor (OCFD) – Civil Engineering",
+          image: "https://faculty.gbu.ac.in/uploads/photos/comingsoonimg.jpg",
         },
 
         // ===== MECHANICAL =====
         {
           name: "Dr. Dharamvir Mangal",
           title: "Assistant Professor – Mechanical Engineering",
-          image: "https://via.placeholder.com/300x300?text=Dharamvir+Mangal",
+          image:
+            "https://faculty.gbu.ac.in/uploads/photos/6605316f1198d_dharamvir.jpg",
         },
         {
           name: "Dr. Harishchandra Thakur",
-          title: "Assistant Professor – Mechanical Engineering",
+          title: "Assistant Professor and HoD – Mechanical Engineering",
           image:
-            "https://via.placeholder.com/300x300?text=Harishchandra+Thakur",
+            "https://faculty.gbu.ac.in/uploads/photos/6605311bb0f06_harish.jpg",
         },
         {
           name: "Dr. Satpal Sharma",
           title: "Assistant Professor – Mechanical Engineering",
-          image: "https://via.placeholder.com/300x300?text=Satpal+Sharma",
+          image:
+            "https://faculty.gbu.ac.in/uploads/photos/6605306fd622f_satpal.jpg",
         },
         {
           name: "Dr. Parvesh Ali",
-          title: "Faculty – Mechanical Engineering",
-          image: "https://via.placeholder.com/300x300?text=Parvesh+Ali",
+          title: "Assistant Professor (OCFD) – Mechanical Engineering",
+          image:
+            "https://faculty.gbu.ac.in/uploads/photos/6614fe5707123_photo.jpg",
         },
         {
           name: "Dr. Vikas Shrivastava",
-          title: "Faculty – Mechanical Engineering",
-          image: "https://via.placeholder.com/300x300?text=Vikas+Shrivastava",
+          title: "Assistant Professor (OCFD) – Mechanical Engineering",
+          image:
+            "https://faculty.gbu.ac.in/uploads/photos/6614d9f83c240_download.png",
         },
         {
-          name: "Prashant Gill",
-          title: "Faculty – Mechanical Engineering",
-          image: "https://via.placeholder.com/300x300?text=Prashant+Gill",
+          name: "Dr. Sultan Singh",
+          title: "Assistant Professor (OCFD) – Mechanical Engineering",
+          image:
+            "https://faculty.gbu.ac.in/uploads/photos/6617c0f4052e9_SULTAN%20PHOTO.jpg",
         },
         {
           name: "Dr. Manish Dev",
-          title: "Faculty – Mechanical Engineering",
-          image: "https://via.placeholder.com/300x300?text=Manish+Dev",
-        },
-        {
-          name: "Suraj Kumar Singh",
-          title: "Faculty – Mechanical Engineering",
-          image: "https://via.placeholder.com/300x300?text=Suraj+Kumar+Singh",
+          title: "Assistant Professor (OCFD) – Mechanical Engineering",
+          image:
+            "https://faculty.gbu.ac.in/uploads/photos/66181b5aa3f11_Manish%20Dev.jpg",
         },
       ],
     },
   },
+
   {
     componentName: "NoticeEvents",
     enabled: true,
@@ -757,6 +827,7 @@ As an academic community, the school is committed to the belief that expanding o
       ],
     },
   },
+
   {
     componentName: "ClubsAchievements",
     enabled: true,
@@ -803,7 +874,6 @@ As an academic community, the school is committed to the belief that expanding o
           facultyAdvisor: "Dr. Vikram Singh",
           image:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQxT9G3gSxNZESl4NJH1NzcPq0kBF1XNyHcA&s",
-
           socialLinks: {
             linkedin: "https://linkedin.com/company/ieeestudentbranch",
             twitter: "https://twitter.com/ieeestudents",
@@ -833,7 +903,6 @@ As an academic community, the school is committed to the belief that expanding o
           facultyAdvisor: "Dr. Vimlesh Kumar Ray",
           image:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_dlCh4LMQ-987UX_Ssas6havujpWSVCmIGw&s",
-
           socialLinks: {
             twitter: "https://twitter.com/robiotics_gbu",
             email: "robotics@gbu.ac.in",
@@ -848,7 +917,6 @@ As an academic community, the school is committed to the belief that expanding o
           facultyAdvisor: "Dr. Manjari Suman",
           image:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQiaFXt6eK5fEvem3rwrqMkO-O3ERZm0rV9g&s",
-
           socialLinks: {
             linkedin: "https://linkedin.com/company/drishtikon-gbu",
             email: "drishtikon@gbu.ac.in",
@@ -863,7 +931,6 @@ As an academic community, the school is committed to the belief that expanding o
           facultyAdvisor: "Dr. Anand Pratap Singh",
           image:
             "https://www.palmbeachculture.com/wp/wp-content/uploads/2025/06/Art-Calls-32.jpg",
-
           socialLinks: {
             facebook: "https://facebook.com/abhivyanjana",
             instagram: "https://instagram.com/abhivyanjana_gbu",
@@ -879,7 +946,6 @@ As an academic community, the school is committed to the belief that expanding o
           facultyAdvisor: "Dr. Sunita Gupta",
           image:
             "https://i.pinimg.com/736x/2a/9b/fd/2a9bfd335b50e86e48ad59b4b28aa5b5.jpg",
-
           socialLinks: {
             email: "adventure@gbu.ac.in",
           },
@@ -892,7 +958,6 @@ As an academic community, the school is committed to the belief that expanding o
           facultyAdvisor: "Dr. Vidushi Sharma",
           image:
             "https://image-static.collegedunia.com/public/reviewPhotos/899143/unnamed.jpg",
-
           socialLinks: {
             instagram: "https://instagram.com/photoclub_gbu",
             email: "photography@gbu.ac.in",
@@ -907,7 +972,6 @@ As an academic community, the school is committed to the belief that expanding o
           facultyAdvisor: "Dr. Anand Pratap Singh",
           image:
             "https://images.squarespace-cdn.com/content/v1/604e4790cbfeea1a501ac957/1664284358990-4TBHSR3TPHO2A3M8O79V/teen+photo.jpeg",
-
           socialLinks: {
             email: "art@gbu.ac.in",
           },
@@ -915,6 +979,7 @@ As an academic community, the school is committed to the belief that expanding o
       ],
     },
   },
+
   {
     componentName: "PlacementsSection",
     enabled: true,
@@ -1041,6 +1106,11 @@ As an academic community, the school is committed to the belief that expanding o
         { name: "HCL", logo: "https://logo.clearbit.com/hcltech.com" },
         { name: "Infosys", logo: "https://logo.clearbit.com/infosys.com" },
 
+        // ===== LIVE PROJECT / INTERNSHIP PARTNERS (from CRC data) =====
+        { name: "NSIC", logo: "https://logo.clearbit.com/nsic.co.in" },
+        { name: "CSIR", logo: "https://logo.clearbit.com/csir.res.in" },
+        { name: "TERI", logo: "https://logo.clearbit.com/teri.res.in" },
+
         // ===== CORE ENGINEERING =====
         { name: "L&T", logo: "https://logo.clearbit.com/larsentoubro.com" },
         {
@@ -1055,6 +1125,7 @@ As an academic community, the school is committed to the belief that expanding o
       ],
     },
   },
+
   {
     componentName: "StudentStartup",
     enabled: true,
@@ -1080,32 +1151,33 @@ As an academic community, the school is committed to the belief that expanding o
       },
     },
   },
+
   {
     componentName: "StudentAchievements",
     enabled: true,
     position: 14,
     props: {
       achievements: [
-        // ===== ARCHITECTURE (SOARCH) =====
+        // ===== CIVIL ENGINEERING =====
         {
-          title: "NASA Design Competition Participation",
-          achievement: "International Participation",
-          year: "2023",
-          student: "Architecture Students",
-          department: "Architecture",
+          title: "GATE Qualified by Civil Engineering Students",
+          achievement: "National Examination Qualification",
+          year: "2017",
+          student: "Civil Engineering Students",
+          department: "Civil Engineering",
           image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e",
           description:
-            "Students from School of Architecture participated in international NASA design competitions showcasing innovative architectural solutions.",
+            "Students from the Department of Civil Engineering qualified GATE, demonstrating strong academic and technical preparation.",
         },
         {
-          title: "Urban Planning & Design Projects",
-          achievement: "Academic Excellence",
-          year: "2023",
-          student: "B.Arch Students",
-          department: "Architecture",
-          image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab",
+          title: "Extra Curricular Activities – CED Students",
+          achievement: "Active Participation",
+          year: "2017",
+          student: "Civil Engineering Students",
+          department: "Civil Engineering",
+          image: "https://images.unsplash.com/photo-1581093458791-9d09d7e07b6a",
           description:
-            "Students developed advanced urban planning and sustainable design projects addressing real-world infrastructure challenges.",
+            "Civil Engineering Department students actively participated in extra-curricular activities during 2016-17 and 2017-18.",
         },
 
         // ===== ELECTRICAL ENGINEERING =====
